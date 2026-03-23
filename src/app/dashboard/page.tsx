@@ -16,6 +16,7 @@ type Booking = {
   date: string;
   start_time: string;
   status: string;
+  notes?: string;
   services: { name: string; price: number };
 };
 
